@@ -11,8 +11,8 @@ It is used in all PixelNut! products from Devicenut that use bluetooth communica
 
 The following devices are supported from Adafruit:
 
-Bluefruit LE SPI Friend.
-Bluefruit LE Micro.
-Feather 32u4 Bluefruit LE.
+* Bluefruit LE SPI Friend
+* Bluefruit LE Micro
+* Feather 32u4 Bluefruit LE
 
 After downloading, rename folder to 'BluefruitStrs' and install in the Arduino Libraries folder.
