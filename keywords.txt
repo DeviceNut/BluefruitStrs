@@ -1,0 +1,32 @@
+#######################################
+# Syntax Coloring Map For PixelNutApp
+####################################### 
+# Class
+#######################################
+
+BluefruitStrs	KEYWORD1
+
+#######################################
+# Methods and Functions 
+#######################################	
+
+NotifyCallback	KEYWORD2
+ResponseCallback	KEYWORD2
+
+init	KEYWORD2
+reset	KEYWORD2
+isConnected	KEYWORD2
+sendCmdStr	KEYWORD2
+readDataStr	KEYWORD2
+writeDataStr	KEYWORD2
+
+#######################################
+# Constants
+#######################################
+
+NotifyMsg_Alert	LITERAL1
+NotifyMsg_ErrMsg	LITERAL1
+NotifyMsg_PktErr	LITERAL1
+NotifyMsg_SoftErr	LITERAL1
+NotifyMsg_NoAck	LITERAL1
+NotifyMsg_Count	LITERAL1
