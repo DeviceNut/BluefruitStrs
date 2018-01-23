@@ -333,7 +333,7 @@ static bool packetsToStr(char *strbuf, uint16_t buflen)
         break;
 
       // reset position to the start of the payload
-      responseBufPtr = (byte *)msgResponse.payload;
+      responseBufPtr = (byte*)msgResponse.payload;
 
       #if DEBUG_OUTPUT
       if (msgResponse.header.length)
@@ -552,7 +552,7 @@ static bool packetWrite(uint16_t command, byte *buf, byte count, byte more_data)
   Serial.println();
   #endif
 
-  byte *buff = (byte *)&cmdmsg;
+  byte *buff = (byte*)&cmdmsg;
 
   SPI.beginTransaction( SPISettings(4000000, MSBFIRST, SPI_MODE0) );
   SPI_CS_ENABLE();
