@@ -163,8 +163,7 @@ void BluefruitStrs::reset(void)
 // must be called only once at setup() time
 void BluefruitStrs::init(char *buffer, uint16_t buflen, NotifyCallback cb)
 {
-  // SPI.begin(); // initialize SPI library
-  // this MUST be done in calling application
+  SPI.begin(); // initialize SPI library
 
   m_buffer = buffer;
   m_buflen = buflen;
