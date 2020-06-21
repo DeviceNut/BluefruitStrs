@@ -57,4 +57,4 @@ public:
   bool readDataStr(ResponseCallback cb);
 };
 
-#endif
+#endif // BLUEFRUIT_STRS_H
