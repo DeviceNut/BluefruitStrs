@@ -1,5 +1,4 @@
-#ifndef BLUEFRUIT_STRS_H
-#define BLUEFRUIT_STRS_H
+#pragma once
 
 enum NotifyMessage
 {
@@ -56,5 +55,3 @@ public:
   // 'strbuf' from init() is NOT cleared upon return.
   bool readDataStr(ResponseCallback cb);
 };
-
-#endif // BLUEFRUIT_STRS_H
