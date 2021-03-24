@@ -7,7 +7,7 @@ https://github.com/adafruit/Adafruit_BluefruitLE_nRF51
 
 It has been now completely reworked to just support the reading and writing of strings over Bluetooth LE. It was rewritten to fix stability issues that were found, to reduce its memory footprint, and to allow more robust error handling.
 
-It is used in all PixelNut! products from Devicenut that use bluetooth communications for user control.
+It is used in some of PixelNut! products from Devicenut that use bluetooth communications for user control.
 
 The following devices are supported from Adafruit:
 
